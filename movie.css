@@ -1,0 +1,494 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700);
+
+@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+.container2 {
+    position: absolute;
+    left: 2px;
+  }
+  .container2 div {
+    height: 50;
+    position: relative;
+    top:25;
+    left:285;
+  }
+  @media only screen and (max-width: 600px) {
+    .container2{
+    position: absolute;
+    TOP: 590px;
+    left: -190px;
+    }
+  }
+#button {
+    background-color: #017CAD;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+     padding: 9px 70px; 
+     margin: 0px -10px;
+     border-radius: 30px;
+     border: 1px ;
+   }
+   #button:hover {
+     background-color: #4CAF50;
+     color: white;
+   }
+   .container4 {
+    position: absolute;
+    top: 5;
+    left:10;
+  }
+  #home{
+    width:55px;
+    opacity: 0.7;
+  }
+  #home:hover{
+      opacity: 1;
+  }
+  @media screen and (max-width: 660px) {
+    .container4 {
+        width: 150%;
+    }
+  }
+  .pippo {
+    overflow: hidden;
+    background-color: #b40d0d;
+  }
+  
+  .pippo a {
+    float: left;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: sans-serif;
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 20px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .pippo a:hover, .dropdown:hover .dropbtn {
+    background-color:#b40d0d  
+  }
+a {
+  text-decoration: none;
+  color: #5C7FB8
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.movie-card {
+  font: 14px/22px "Lato", Arial, sans-serif;
+  color: #A9A8A3;
+  padding: 40px 250;
+}
+@media only screen and (max-width: 600px) {
+  .movie-card{
+    padding: 4px;
+    position: relative;
+    left: -25px;
+    top: 25px;
+  }
+}
+.container {
+  margin: 0 auto;
+  width: 1000px;
+  height: 400px;
+  background: white;
+  border-radius: 5px;
+  position: relative;
+  padding-left: 11px;
+}
+
+.hero {
+  height: 342px;  
+  margin:0;
+  position: relative;
+  overflow: hidden;
+  z-index:1;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+    
+}
+.hero2 {
+    height: 342px;  
+    margin:0;
+    position: relative;
+    overflow: hidden;
+    z-index:1;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+      
+  }
+.hero:before {
+  content:'';
+  width:100%; height:100%;
+  position:absolute;
+  overflow: hidden;
+  top:0; left:0;
+  background:red;
+  background:url(./img/nomad.jpg);
+  background-size: cover ;
+  width: 780;
+  height: 346;
+  z-index:-1;
+ 
+  transform: skewY(-2.2deg);
+  transform-origin:0 0;
+  
+  -webkit-backface-visibility: hidden; 
+  
+}
+
+
+.hero2:before {
+    content:'';
+    width:100%; height:100%;
+    position:absolute;
+    overflow: hidden;
+    top:0; left:0;
+    background:red;
+    background:url("https://mr.comingsoon.it/imgdb/foto/58021.jpg");
+    background-size: cover ;
+    width: 780;
+    height: 346;
+    z-index:-1;
+   
+    transform: skewY(-2.2deg);
+    transform-origin:0 0;
+    
+    -webkit-backface-visibility: hidden; 
+    
+  }
+  @media only screen and (max-width: 600px) {
+    .hero2{
+    width: 470px;
+    height: fit-content;
+    visibility: hidden;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .hero{
+    width: 470px;
+    height: fit-content;
+    visibility: hidden;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .hero3{
+    width: 470px;
+    height: fit-content;
+    visibility: hidden;
+    }
+  }
+  .hero3 {
+    height: 342px;  
+    margin:0;
+    position: relative;
+    overflow: hidden;
+    z-index:1;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+      
+  }
+  .hero3:before {
+    content:'';
+    width:100%; height:100%;
+    position:absolute;
+    overflow: hidden;
+    top:0; left:0;
+    background:red;
+    background:url("https://static.rogerebert.com/uploads/review/primary_image/reviews/minari-movie-review-2020/minari-movie-review-2020.jpg");
+    background-size: cover ;
+    width: 780;
+    height: 346;
+    z-index:-1;
+   
+    transform: skewY(-2.2deg);
+    transform-origin:0 0;
+    
+    -webkit-backface-visibility: hidden; 
+    
+  }
+.cover {
+  position: absolute;
+  left: 40px;
+  top: 150px;
+  z-index: 2;
+}
+
+.details {
+  
+  padding: 190px 0 0 280px;
+}
+  
+  
+  .title1 {
+    color: white;
+    font-size: 44px;
+    margin-bottom: 13px;
+    position: relative;
+    left:250px;
+  }
+    span {
+      position: absolute;
+      top: 3px;
+      margin-left: 12px;
+      background: #C4AF3D;
+      border-radius: 5px;
+      color: #544C21;
+      font-size: 14px;
+      padding: 0px 4px;
+      
+    }
+
+  .title2 {    
+    color: #C7C1BA;
+    font-size: 23px;    
+    font-weight: 300;
+    margin-bottom: 15px;
+    position: relative;
+    left:250px;
+  }
+  
+  
+  .likes {
+    margin-left: 24px;
+  }
+  
+  
+
+.description {
+  
+  bottom: 0px;
+  height: 200px;
+  font-size: 16px;
+  line-height: 26px;
+  color: darkslategrey;
+  word-wrap: break-word;
+  
+}
+@media only screen and (max-width: 600px) {
+.description{
+   font-size: 5.8vw;
+    position: absolute;
+    left: -260px;
+    top: 450px;
+}
+}
+.column1 {
+  padding-left: 50px;
+  padding-top: 120px;
+  width: 220px;
+  float: left;
+  text-align: center;
+}
+
+.tag {
+  background: white;
+  border-radius: 10px;
+  padding: 3px 8px;
+  font-size: 16px;
+  margin-right: 4px;
+  line-height: 35px;
+  cursor: pointer;
+}
+
+.tag:hover {
+  background: #ddd;
+}
+
+.column2 {
+  padding-left: 41px;
+  padding-top: 30px;
+  margin-left: 20px;
+  width: 480px;
+  float: left;
+}
+
+.avatars {
+  margin-top: 23px;
+}
+img{
+    border-radius: 5px;
+}
+  #play {
+    opacity: 0.5;
+    position: absolute;
+    left:91px;
+    top:235px;
+    z-index: 2;
+  }
+  #play:hover{
+    opacity: 0.8;
+  }
+  a:hover {
+    text-decoration: none;
+  }
+
+
+fieldset, label { margin: 0; padding: 0; }
+
+/****** Style Star Rating Widget *****/
+
+.rating { 
+  border: none;
+  float: left;
+}
+
+.rating > input { display: none; } 
+.rating > label:before { 
+  margin: 5px;
+  margin-top: 0;
+  font-size: 1em;
+  font-family: FontAwesome;
+  display: inline-block;
+  content: "\f005";
+}
+
+.rating > .half:before { 
+  content: "\f089";
+  position: absolute;
+}
+
+.rating > label { 
+  color: #ddd; 
+ float: right; 
+}
+
+/***** CSS Magic to Highlight Stars on Hover *****/
+
+.rating > input:checked ~ label, /* show gold star when clicked */
+.rating:not(:checked) > label:hover, /* hover current star */
+.rating:not(:checked) > label:hover ~ label { color: #FFD700;  } /* hover previous stars in list */
+
+.rating > input:checked + label:hover, /* hover current star when changing rating */
+.rating > input:checked ~ label:hover,
+.rating > label:hover ~ input:checked ~ label, /* lighten current selection */
+.rating > input:checked ~ label:hover ~ label { color: #FFED85;  } 
+
+a[data-tooltip] {
+  position: relative;
+}
+a[data-tooltip]::before,
+a[data-tooltip]::after {
+  position: absolute;
+  display: none;
+  opacity: 0.85;
+}
+a[data-tooltip]::before {
+  /*
+   * using data-tooltip instead of title so we 
+   * don't have the real tooltip overlapping
+   */
+  content: attr(data-tooltip);
+  background: #000;
+  color: #fff;
+  font-size: 13px;
+  padding: 5px;
+  border-radius: 5px;
+  /* we don't want the text to wrap */
+  white-space: nowrap;
+  text-decoration: none;
+}
+a[data-tooltip]::after {
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  content: '';
+}
+
+a[data-tooltip]:hover::before,
+a[data-tooltip]:hover::after {
+  display: block;
+}
+
+/** positioning **/
+
+/* top tooltip */
+a[data-tooltip][data-placement="top"]::before {
+  bottom: 100%;
+  left: 0;
+  margin-bottom: 40px;
+}
+a[data-tooltip][data-placement="top"]::after {
+  border-top-color: #000;
+  border-bottom: none;
+  bottom: 50px;
+  left: 20px;
+  margin-bottom: 4px;
+}
+
+.navbar {
+  position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: end;
+        max-height: 49px;
+        justify-content: end;
+        padding-top: 0em;
+        border-radius: 0;
+        min-height: 49px;
+        margin-bottom: 2px;
+}
+@media only screen and (max-width: 600px) {
+  .navbar{
+    width: 475px;
+  }
+}
+#link{
+  color:white;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .column1{
+position: relative;
+  top:-181px;
+  visibility: hidden;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .column2{
+    width: 433px;
+    position: relative;
+    top: -150px;
+    padding-left: 46px;
+
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .cover{
+   position:absolute;
+   top: 5px;
+   left: 112px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  #play{
+   position: absolute;
+   top: 86px;
+   left: 157px;
+  }
+}
